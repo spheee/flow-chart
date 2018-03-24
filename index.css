@@ -1,0 +1,41 @@
+body {
+    background: gray
+}
+
+/* g.type-TK > rect {
+    fill: #00ffd0;
+  }
+   */
+
+text {
+    font-weight: 300;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+    font-size: 14px;
+}
+
+.node rect,
+.node circle,
+.node ellipse,
+.node polygon {
+  stroke: #333;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.edgePath path {
+    stroke: #333;
+    stroke-width: 1.5px;
+}
+/* 
+rect {
+    rx: 0;
+    ry: 0;
+} */
+.third rect{
+    fill: yellow
+}
+
+.predefinition rect {
+    rx: 0;
+    ry: 0;
+}
